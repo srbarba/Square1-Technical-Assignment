@@ -1,0 +1,40 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700|Noto+Serif:400,400i,700');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Global styles
+html,
+body {
+    height: 100%;
+}
+
+.btn-outline-terciary {
+    &:hover {
+        color: #fff;
+    }
+}
+
+// Swal library styles
+.swal-button {
+    background-color: $primary;
+    color: #fff;
+    &:not([disabled]):hover {
+        background-color: darken($primary, 10%);
+        color: #fff;
+    }
+}
+.swal-button--login,
+.swal-button--register {
+    background-color: $gray-300;
+    color: $secondary;
+    &:not([disabled]):hover {
+        background-color: $terciary;
+        color: #fff;
+    }
+}
