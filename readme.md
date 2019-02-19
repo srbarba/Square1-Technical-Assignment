@@ -14,7 +14,7 @@ $ composer install
 $ npm install
 ```
 
-Once don npm insta, you have to build the resources with:
+Once done npm install, you have to build the resources with:
 
 ```bash
 $ npm run dev
