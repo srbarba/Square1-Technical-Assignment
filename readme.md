@@ -12,12 +12,16 @@ $ composer install
 
 ```bash
 $ npm install
+```
+
+Once don npm insta, you have to build the resources with:
+
+```bash
 $ npm run dev
 ```
 or
 
 ```bash
-$ yarn
 $ yarn dev
 ```
 
