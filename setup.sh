@@ -10,7 +10,7 @@ function checkPrerequisits() {
     echo "Please, install composer before execute this script." & requireInstall=0
   fi
 
-  if [[ "$(php --version | head -n 1 | cut -d " " -f 2 | cut -c 1,3)" -ge "71" ]] ;then
+  if [[ "$(php --version | head -n 1 | cut -d " " -f 2 | cut -c 1,3)" -lt "71" ]] ;then
     echo "PHP 7.1 at least is requiered to execute this script." & requireInstall=0
   fi
 
