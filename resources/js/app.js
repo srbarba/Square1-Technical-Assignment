@@ -20,7 +20,7 @@ Vue.use(VueSwal)
 Vue.use(VueCarousel);
 
 Vue.use(VueAxios, axios)
-axios.defaults.baseURL = 'http://localhost:8000/api/'
+axios.defaults.baseURL = '/api/'
 
 // Import state management
 import { store } from './store.js';
