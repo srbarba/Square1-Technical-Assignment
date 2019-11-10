@@ -8,7 +8,9 @@ You can see the original bases of the practice in the root folder of the project
 [Square 1 Front End Developer Assignment](Square_1_Front_End_Developer_Assignment.pdf) (FE)
 
 ## Prerequisites
-You need PHP 7, composer, npm and SQLite installed in your computer to execute this project.
+You need PHP 7.1 at least, composer, npm and SQLite installed in your computer to execute this project.
+
+Check also [Laravel prerequisites](https://laravel.com/docs/5.8/installation#server-requirements).
 
 ## Quick execution
 
